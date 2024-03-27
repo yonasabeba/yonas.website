@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .navbar{
+    background-color: transparent;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+li{
+   background-color: transparent;
+   list-style-type: none;
+
+}
+li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+    text-transform:capitalize;
+    font-family:sans-serif;
+    margin-left: 40px;
+    transition: 0.4s ease-in-out;
+}
+li a:hover{
+    color: #ff7200;
+    text-decoration-line: inherit;
+}
+.img{
+    border-radius:20px;
+    width: 300px;
+    margin-left: 3px;
+    object-fit: cover;
+    transition: tranform 0.8s;
+    height: 100%;
+}
+.img:hover{
+    transform: scale(1,1.1);
+    opacity: 0.8;
+}
